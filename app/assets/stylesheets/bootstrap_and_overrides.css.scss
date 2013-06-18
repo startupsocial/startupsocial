@@ -1,0 +1,17 @@
+// Overwrite variables here
+$gridColumnWidth1200: 60px;
+$gridGutterWidth1200: 20px;
+
+
+// Importing Bootstrap
+
+@import "bootstrap";
+
+@import "bootstrap-responsive";
+
+// Any additional styling overrides here
+
+html, body {
+	background-image: image-url('bg.png');
+	background-repeat: repeat;
+}
