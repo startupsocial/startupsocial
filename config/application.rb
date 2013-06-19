@@ -37,6 +37,13 @@ module Startupsocial
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
 
+    #activeadmin
+    config.assets.initialize_on_precompile = false
+    config.assets.precompile += %w[active_admin.css active_admin.js print.css]
+    config.assets.precompile += %w[active_admin/print.css]
+
+
+
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
