@@ -1,6 +1,3 @@
-require 'activeadmin'
-require 'devise'
-
 ActiveAdmin.setup do |config|
 
   # == Site Title
